@@ -173,43 +173,6 @@ const App = () => {
       )}
     </Container>
   </div>
-  
-    /* <div>
-   <Barra />
-    <Container>
-      <h1>Lista de Personas</h1>
-      <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>Nombre</th>
-            <th>Email</th>
-            <th>Teléfono</th>
-            <th>Dirección</th>
-          </tr>
-        </thead>
-        <tbody>
-          {people.map((person) => (
-            <tr key={person.id}>
-              <td>{person.name}</td>
-              <td>{person.email}</td>
-              <td>{person.phone}</td>
-              <td>{person.address.city}, {person.address.street}, {person.address.suite}</td>
-              <td>
-                <Button variant="danger" onClick={() => handleDelete(person.id)}>Eliminar</Button>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </Table>
-      <h2>Agregar Persona</h2>
-      <PersonForm
-        newPerson={newPerson}
-        handleInputChange={handleInputChange}
-        handleSubmit={handleSubmit}
-        errors={errors}
-      />
-    </Container>
-    </div>*/
   );
 };
 
